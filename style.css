@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: no-wrap;
+    gap: 5rem;
 }
 
 .head-sec1 {
@@ -46,7 +47,7 @@
 }
 
 .img-sec1 {
-    width: 30rem;
+    width: 20rem;
     height: 30rem;
 }
 
