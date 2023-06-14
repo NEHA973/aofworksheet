@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: no-wrap;
-    gap: 5rem;
+    gap: 7rem;
 }
 
 .head-sec1 {
@@ -32,13 +32,17 @@
     font-weight: 500;
 }
 
+.sec1-p{
+    font-style: normal;
+    width:20rem;
+}
 .btn-sec1 {
     background-color: rgb(223, 238, 162);
     font-size: large;
     font-weight: 700;
     width: 18rem;
     text-align: center;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     border: rgb(223, 238, 162);
     height: 3rem;
     cursor: pointer;
@@ -47,7 +51,7 @@
 }
 
 .img-sec1 {
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
 }
 
@@ -149,17 +153,17 @@
 .fourth-sec {
     background-color: rgba(225, 236, 171, 0.855);
     margin: auto;
-
     height: 30rem;
 
 }
 
 .head-sec4 {
+    display: flex;
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
     margin-top: 40px;
-    margin-left: 6rem;
+    margin-left: 10rem;
     width: 65rem;
     height: 8rem;
 
@@ -169,6 +173,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 
 }
 
